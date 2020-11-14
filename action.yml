@@ -1,9 +1,9 @@
 name: 'trx-parser'
 description: 'An action to parse trx reports from a given path and use GitHub status check api to fail PRs'
-author: 'Nasir Amin'
+author: 'ananda'
 branding:
   icon: 'info'  
-  color: 'green'
+  color: 'red'
 inputs:
     TRX_PATH:
       description: 'Path to the directory cntaining trx files'
